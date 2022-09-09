@@ -1,0 +1,33 @@
+aside {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background: #1e2444;
+    font-size: 1.2em;
+  }
+  nav {
+    position: relative;
+    margin: 25%;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  li {
+    position: relative;
+    margin-top: 3em;
+  }
+  
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    color: #fff;
+    transition: all ease-out 300ms;
+  }
+  
+  a:hover {
+    color: #a1abdf;
+  }
